@@ -94,3 +94,15 @@ a {
   max-height: 600px;
   /* height: 600px; */
 }
+/* Social Proof Section */
+.social-proofs {
+  background-color: #f8fafc;
+  padding: 64px 0;
+}
+.company-logos {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  text-align: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
