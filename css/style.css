@@ -2,3 +2,95 @@
 .plus-jakarta-sans-font {
   font-family: 'Plus Jakarta Sans', serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Header Navigation */
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  gap: 32px;
+}
+.navbar li a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #475569;
+}
+.navbar-buttons button {
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.navbar-buttons button:first-child {
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+}
+.navbar-buttons button:last-child {
+  background-color: #4f46e5;
+  border: 1px solid #4f46e5;
+  color: white;
+  margin-left: 8px;
+}
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(to top, #e0f2fe, #ffffff);
+}
+.hero-content {
+  text-align: center;
+  padding: 96px 0;
+}
+.hero-content span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #eef2ff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 24px;
+}
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 24px;
+}
+.hero-content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 24px;
+}
+.app-download img {
+  width: 140px;
+  height: 44px;
+}
+.mock-up img {
+  width: 100%;
+  height: 100%;
+}
+.mock-up {
+  margin-top: 60px;
+  max-height: 600px;
+  /* height: 600px; */
+}
