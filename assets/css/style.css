@@ -259,3 +259,115 @@ a {
   color: #475569;
   margin: 0;
 }
+/* What People Say */
+.what-people-say {
+  padding: 96px 0;
+  background-color: #f8fafc;
+}
+.what-people-say .section-heading {
+  text-align: center;
+}
+.what-people-say span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #eef2ff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 24px;
+}
+.what-people-say h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 24px;
+}
+.what-people-say p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 64px;
+}
+.people-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 32px;
+}
+.people-review {
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+}
+.people-review .stars {
+  font-size: 24px;
+  color: #f59e0b;
+  margin-bottom: 24px;
+}
+.people-review p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 24px;
+}
+.user-profile {
+  display: flex;
+  gap: 12px;
+}
+.user-profile h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.user-profile p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+}
+/* Our Office */
+.our-offices {
+  padding: 64px 0;
+}
+.our-offices span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #eef2ff;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
+  margin-bottom: 24px;
+}
+.our-offices h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 24px;
+}
+.our-offices p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 64px;
+}
+.our-office {
+  display: flex;
+  gap: 32px;
+}
+.our-office > div {
+  border: 1px solid #e2e8f0;
+  padding: 24px;
+  border-radius: 24px;
+}
+.our-office h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 25px 0 8px 0;
+}
+.our-office > div p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1e293b;
+}
